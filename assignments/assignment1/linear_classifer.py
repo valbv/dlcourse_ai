@@ -97,7 +97,7 @@ def linear_softmax(X, W, target_index):
     # TODO implement prediction and gradient over W
     # Your final implementation shouldn't have any loops
     raise Exception("Not implemented!")
-    
+
     return loss, dW
 
 
@@ -109,7 +109,7 @@ class LinearSoftmaxClassifier():
             epochs=1):
         '''
         Trains linear classifier
-        
+
         Arguments:
           X, np array (num_samples, num_features) - training data
           y, np array of int (num_samples) - labels
@@ -147,7 +147,7 @@ class LinearSoftmaxClassifier():
     def predict(self, X):
         '''
         Produces classifier predictions on the set
-       
+
         Arguments:
           X, np array (test_samples, num_features)
 
@@ -161,12 +161,3 @@ class LinearSoftmaxClassifier():
         raise Exception("Not implemented!")
 
         return y_pred
-
-
-
-                
-                                                          
-
-            
-
-                
